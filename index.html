@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Benji Martinez" />
+  <meta name="description" content="Diseño, instalación y puesta en marcha de sistemas integrales como CCTV, Control de Acceso Peatonal y Vehicular, Telefonía, Enlaces Dedicados, entre los mas importantes." />
+  <meta name="keywords"  content="Domotica,Camaras,Vigilancia,Seguridad,Automatizacion,enlaces,dedicados" />
+
+  <title>Bienvenidos a SIDI</title>
+  
+  <!--Estilos del menu Parallax + Estilos del documento en general-->
+  <link rel="stylesheet" type="text/css" href="CSS/jquery.pagepiling.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/ejemplos.css" />
+
+  <!--Escript's Para el Menu Parallax-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="JS/jquery.pagepiling.min.js"></script>
+
+  <!--Escript's Para el Slider-->
+  <script type="text/javascript" src="JS/bjqs.min.js"></script>
+  <script type="text/javascript" src="JS/script.js"></script>
+
+  <!--[if IE]>
+    <script type="text/javascript">
+       var console = { log: function() {} };
+    </script>
+  <![endif]-->
+
+  <!--Jquery Para las letras divertidas-->
+  <script type="text/javascript" src="JS/jquery.funnyText.js"></script>
+
+
+  <script type="text/javascript">
+    var deleteLog = false;
+    $(document).ready(function() {
+        $('#pagepiling').pagepiling({
+          menu: '#menu',
+          anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+          sectionsColor: ['#747474', '#f27400', '#00587d', '#f27400','#00587d'],
+          loopTop: true,
+          loopBottom: true
+      });
+      });
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.text1').funnyText({
+        speed: 700,
+        activeColor: '#f27400',
+        color: '#00587d',
+        fontSize: '1.9em',
+        borderColor: '#FFF'
+      });
+      
+      $('.text2').funnyText({
+        speed: 700,
+        fontSize: '1.9em',
+        activeColor: '#f27400',
+        color: '#00587d',
+        borderColor: '#FFF'
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <ul id="menu">
+    <li data-menuanchor="page1" class="active"><a href="#page1">Inicio</a></li>
+    <li data-menuanchor="page2"><a href="#page2">Nosotros</a></li>
+    <li data-menuanchor="page3"><a href="#page3">Servicios</a></li>
+    <li data-menuanchor="page4"><a href="#page4">Soporte</a></li>
+    <li data-menuanchor="page5"><a href="#page5">Contacto</a></li>
+  </ul>
+
+  <div id="pagepiling">
+      <div class="section" id="section1">
+        <div class="logo">
+          <img id="rotar" src="img/sidi.png">
+          <div class="text1">Sistemas Integrales</div>
+          <div class="text2">Con Diseños Inteligentes.</div>
+        </div>
+        <div id="slider">
+            <ul class="bjqs">
+                <li>
+                    <a href="http://www.google.com"><img src="http://www.domoticadavinci.com/wp-content/uploads/2013/07/Instalaccion-domotica-en-el-hogar-978x400.jpg" alt="holaaaaaaa" title="Da click Para Saber Mas..." /></a>
+                </li>
+                <li>
+                    <a href="http://www.google.com"><img src="http://www.logismarket.es/ip/incas-espana-automatizacion-sistemas-de-control-seguridad-y-domotica-sistemas-de-control-seguridad-y-domotica-de-incas-466233-FGR.jpg" alt="" title="Da click Para Saber Mas..." /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="http://g02.s.alicdn.com/kf/HTB1YrNyGXXXXXbfXFXXq6xXFXXXU/116545643/HTB1YrNyGXXXXXbfXFXXq6xXFXXXU.jpg" alt="" title="Da click Para Saber Mas..." /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/taipei-fireworks.png" alt="" title="Aqui va el tipico Leer mas..." />
+                    </a>
+                </li>
+            </ul>
+        </div>        
+      </div>
+      
+
+      <div class="section" id="section2">
+        <div class="mision">
+          <h1>Mision</h1>
+          <p>Ser una empresa de soluciones de infraestructura de TI reconocida por su cultura de excelencia y compromiso en el cumplimiento de los acuerdos establecidos con nuestros clientes.</p>
+          <br>
+          <h2>Valores</h2>
+          <br>
+          <ul>
+            <li>Innovacion</li>
+            <li>Excelencia</li>
+            <li>Responsabilidad</li>
+          </ul>
+        </div>
+        
+        <div class="vision">
+          <h1>Vision</h1>
+
+          <p>Apoyar la visión corporativa siendo una empresa distribuidora de equipo y accesorios de domotica con la tecnología más reciente; enfocada en equipos de funcionamiento crítico para empresas que dependen de la seguridad e instrumentos de vigilancia.</p>
+
+        </div>
+      </div>
+
+      <div class="section" id="section3">
+
+            <div class="flip im_1">
+              <div class="back">
+                <p>Lideres en la seguridad con Camaras de Vigilancia, la solucion perfecta para prevenir algun robo en casa habitacion.</p>
+                <a href="http://www.google.com.mx">Adquirir Servicio</a>
+              </div>
+              <div class="front">
+                <img src="http://www.rindemas.com/wp-content/uploads/2014/10/Videovigilancia.jpg">
+              </div>
+            </div>
+
+            <div class="flip im_2">
+              <div class="back">
+                <p>Lideres en la seguridad con dispositivos de checado de huella dactilar, la solucion perfecta para verificar la asistencia del empleado.</p>
+                <a href="http://www.google.com.mx">Adquirir Servicio</a>
+              </div>
+              <div class="front">                
+                <img src="http://mlm-s1-p.mlstatic.com/reloj-checador-huella-digital-empleados-asistencia-usb-contr-13411-MLM20076932016_042014-F.jpg">
+              </div>
+            </div>
+            
+            <div class="flip im_3">
+              <div class="back">
+                <p>Lideres en la comunicacion GPS, la solucion perfecta para rastrear tus pertenencias como auto y demas.</p>
+                <a href="http://www.google.com.mx">Adquirir Servicio</a>
+              </div>
+              <div class="front">
+                <img src="http://www.gpsvamoscontigo.com/attachments/Image/smartphone-gps_2.jpg?template=generic">
+              </div>
+            </div>
+
+            <div class="flip im_4">
+              <div class="back">
+                <p>Lideres en comunicaciones via fibra optica, la solucion perfecta para la transmision de datos seguros.</p>
+                <a href="http://www.google.com.mx">Adquirir Servicio</a>
+              </div>
+              <div class="front">
+                <img src="http://www.pccp.net.ar/images/fibra-optica.jpg">
+              </div>
+            </div>
+
+            <div class="flip im_5">
+              <div class="back">
+                <p>Lideres en comunicaciones via satelite, la solucion perfecta para la transmision de datos seguros.</p>
+                <a href="http://www.google.com.mx">Adquirir Servicio</a>
+              </div>
+              <div class="front">
+                <img src="http://www.centrologic.com/data/antenas.jpg">
+              </div>
+            </div>
+            
+            <div class="flip im_6">
+              <div class="back">
+                <p>Los mejores en aplicaciones con Arduino para el estudiante, mediana y pequeña empresa.</p>
+                <a href="http://www.google.com.mx">Adquirir Servicio</a>
+              </div>
+              <div class="front">
+                <img src="http://cursoarduino.disca.upv.es/images/domotica.png">
+              </div>
+            </div>
+      </div>
+
+      
+
+      <div class="section" id="section4">
+        <div class="intro">
+          <h1>En Construccion</h1>
+        <p>Seccion 4</p>
+        </div>
+      </div>
+
+      <div class="section" id="section5">        
+          <div class="formulario">
+              <form action="send.php" method="post">
+              <label for="nombre">Nombre:</label>
+               <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+               <label for="email">Email:</label>
+               <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+               <label for="mensaje">Mensaje:</label>
+               <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+               <input id="submit" type="submit" name="submit" value="Enviar" />
+              </form>                
+          </div>        
+      </div>
+
+  </div>
+
+<script type="text/javascript">
+      $(function(){
+        $('.slider').glide({
+          autoplay: 3500,
+          hoverpause: true, // set to false for nonstop rotate
+          arrowRightText: '&rarr;',
+          arrowLeftText: '&larr;'
+        });
+      });
+    </script>
+</body>
+</html>
+
+
+
